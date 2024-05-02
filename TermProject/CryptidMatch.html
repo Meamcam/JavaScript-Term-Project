@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptid Drag and Drop Game</title>
+    <link rel="stylesheet" href="css/cmmStyle.css">
+</head>
+<body>
+    <h1>Cryptid Match</h1> <!-- Title above the game window -->
+    <div class="game-container">
+        <div class="game-board">
+            <div class="habitat" data-habitat="mountains"><img src="media/mountain.jpg" alt="Mountains"></div>
+            <div class="habitat" data-habitat="forests"><img src="media/forest.jpg" alt="Forests"></div>
+            <div class="habitat" data-habitat="lakes"><img src="media/lake.jpg" alt="Lakes"></div>
+            <div class="habitat" data-habitat="urban"><img src="media/urban.jpg" alt="Urban"></div>
+        </div>
+        <div class="instructions">
+            <p>Drag each cryptid to its habitat.</p>
+        </div>
+    </div>
+    <div class="cryptids">
+        <div class="cryptid" id="yeti" data-cryptid="mountains"><img src="media/yeti.png" alt="Yeti"></div>
+        <div class="cryptid" id="chupacabra" data-cryptid="forests"><img src="media/chupo.png" alt="Chupacabra"></div>
+        <div class="cryptid" id="nessie" data-cryptid="lakes"><img src="media/nessie.png" alt="Loch Ness Monster"></div>
+        <div class="cryptid" id="mothman" data-cryptid="urban"><img src="media/mothman.png" alt="Mothman"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="data/dragScript.js"></script>
+</body>
+</html>

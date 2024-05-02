@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cryptid', Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+@font-face {
+    font-family: 'Cryptid';
+    src: url('../fonts/Cryptid.ttf') format('truetype'); 
+}
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #000;
+    background-image: url('../media/waterBG.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: #f0f0f0;
+}
+
+.controls-box {
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.controls-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.controls-box p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

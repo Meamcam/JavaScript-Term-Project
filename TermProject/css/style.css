@@ -1,0 +1,122 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting up basic styles */
+body {
+    font-family: 'Creepster', cursive; /* Change font family */
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: -15px;
+    color: #fafafa;
+    width: 100%;
+    text-align: center;
+    background: url("../media/glow.png") no-repeat center center; /* Add background */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav .menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+nav .menu-container ul.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+nav .menu-container ul.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 200px;
+    z-index: 1;
+    text-align: left;
+}
+
+nav .menu-container ul.dropdown a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .menu-container ul.dropdown a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Game box styles */
+.game-box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+
+.game-box a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Game description styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 200px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content p {
+    margin-bottom: 10px;
+}
+.dropdown-content {
+    color: #333; /* Adjust text color as needed */
+}
+.dropdown-content a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    color: #555;
+}
+
+/* Background image */
+body {
+    background-image: url('../media/forest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

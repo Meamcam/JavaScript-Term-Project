@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptid Riddle Challenge</title>
+    <link rel="stylesheet" href="css/puzzleCSS.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1>Cryptid Riddle Challenge</h1>
+        <div id="puzzle"></div>
+        <button id="hintBtn" onclick="getHint()">Get Hint</button>
+        <button id="nextBtn" onclick="nextPuzzle()" disabled>Next Riddle</button>
+        <div id="result"></div>
+        <div id="timer">Time: <span id="time"></span></div>
+        <div id="strikes">Strikes: <span id="strikeCount">0</span></div>
+    </div>
+    <script src="data/puzzleScript.js"></script>
+</body>
+</html>

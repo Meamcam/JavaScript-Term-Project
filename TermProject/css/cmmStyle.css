@@ -1,0 +1,68 @@
+/* Cryptid Vibe Styles */
+body {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* White text color */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center; /* Center the title */
+}
+
+.game-container {
+    position: relative;
+    width: 400px; /* Width of the game board */
+    height: 420px; /* Height of the game board (300px + 20px for margin + 100px for instructions) */
+}
+
+.game-board {
+    width: 100%; /* Full width */
+    height: 300px;
+    border: 2px solid #666; /* Dark gray border */
+    margin-bottom: 20px;
+    overflow: hidden; /* Ensure cryptids don't overflow habitats */
+    background-color: #333; /* Dark gray background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.habitat {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #666; /* Dark gray dashed border */
+    margin: 10px;
+    float: left;
+    overflow: hidden; /* Ensure cryptids don't overflow habitats */
+    background-color: #555; /* Dark gray background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.habitat img {
+    width: 100%; /* Make image fill the habitat container */
+    height: 100%; /* Make image fill the habitat container */
+    object-fit: cover; /* Scale the image to cover the entire container */
+}
+
+.cryptid {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Circular shape */
+    margin: 10px auto;
+    background-color: #666; /* Dark gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.cryptid img {
+    width: 100%; /* Make cryptid images fill the container */
+    height: 100%; /* Make cryptid images fill the container */
+    object-fit: cover; /* Scale the image to cover the entire container */
+}
+
+.instructions {
+    font-size: 16px;
+}
